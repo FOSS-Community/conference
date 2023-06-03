@@ -14,6 +14,14 @@ const Register = () => {
               the event details.
             </span>
           </div>
+          <div className="max-w-md mx-auto text-center">
+            <button
+              type="button"
+              className="mt-4 mr-2 rounded-2xl border-2 uppercase bg-slate-50  border-gray-400 hover:border-blue-500 hover:bg-stone-100 hover:text-[#212A5C] transition ease-in duration-100 delay-100 text-md font-semibold text-blue-500 py-3 px-4"
+            >
+              REGISTER
+            </button>
+          </div>
         </div>
       </section>
     </div>
