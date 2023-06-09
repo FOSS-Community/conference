@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 body {
-    background-color: #fff;
+	background-color: #fff;
+}
+
+@layer components {
+	.conducts-items {
+		@apply mb-2 bg-[#dfe4ef];
+	}
+	.conducts-button {
+		@apply block bg-[#5DB363] text-white font-Roboto lg:text-lg focus:ring-4 focus:outline-none focus:ring-[#5DB363] font-medium rounded px-5 py-2.5 text-center;
+	}
+	.logo-container {
+		@apply p-2 bg-gray-200 md:bg-white my-2;
+	}
+	.logo-image-container {
+		@apply sm:w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2;
+	}
 }
