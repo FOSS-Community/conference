@@ -29,7 +29,7 @@ body {
 		@apply flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center;
 	}
 	.schedule-time {
-		@apply flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center;
+		@apply flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center shrink-0;
 	}
 	.schedule-text {
 		@apply text-lg font-semibold text-gray-900;
