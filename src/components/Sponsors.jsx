@@ -31,18 +31,18 @@ const Sponsors = () => {
         </p>
       </div>
       <div className="mt-6 flex gap-4 max-w-8xl px-8 justify-center m-auto">
-        <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-          <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
+        <div className="sponsor-container">
+          <div className="sponsor-image-container">
             <img className="" src={yourlogo} alt="Logo" />
           </div>
         </div>
-        <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-          <div className="w-full h-full flex relative justify-center items-center cursor-pointer hover:bg-gray-200">
+        <div className="sponsor-container">
+          <div className="sponsor-image-container">
             <img className="" src={yourlogo} alt="Logo" />
           </div>
         </div>
-        <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-          <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
+        <div className="sponsor-container">
+          <div className="sponsor-image-container">
             <img className="" src={yourlogo} alt="Logo" />
           </div>
         </div>

@@ -29,23 +29,23 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
             </h2>
             <div className="flex flex-row justify-between bg-[#dfe4ef]">
               <div className="bg-[#dfe4ef] font-Roboto w-[90%]">
-                <p className="mb-2 bg-[#dfe4ef] ">
+                <p className="conducts-items">
                   1. Respect and courtesy: Treat others with respect and
                   courtesy.
                 </p>
-                <p className="mb-2 bg-[#dfe4ef] ">
+                <p className="conducts-items">
                   2. Collaboration: Foster collaboration and maintain a positive
                   atmosphere.
                 </p>
-                <p className="mb-2 bg-[#dfe4ef] ">
+                <p className="conducts-items">
                   3. Inclusivity: Embrace diversity and inclusivity in all
                   interactions.
                 </p>
-                <p className="mb-2 bg-[#dfe4ef] ">
+                <p className="conducts-items">
                   5. Compliance: All participants must comply with the code of
                   conduct.
                 </p>
-                <p className="mb-2 bg-[#dfe4ef] ">
+                <p className="conducts-items">
                   4. Harassment: Harassment of any kind will not be tolerated.
                 </p>
               </div>
@@ -59,14 +59,14 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
         <div className="flex gap-2">
           <button
             onClick={() => handleShortCoc(true)}
-            className="block  bg-[#5DB363] text-white font-Roboto lg:text-lg focus:ring-4 focus:outline-none focus:ring-[#5DB363] font-medium rounded text-md px-5 py-2.5 text-center "
+            className="conducts-button"
             type="button"
           >
             Short Version
           </button>
           <button
             onClick={() => handleLongCoc(true)}
-            className="block  bg-[#5DB363] text-white font-Roboto lg:text-lg focus:ring-4 focus:outline-none focus:ring-[#5DB363] font-medium rounded text-sm px-5 py-2.5 text-center "
+            className="conducts-button"
             type="button"
           >
             Long Version

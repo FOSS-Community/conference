@@ -9,7 +9,7 @@ const Community = () => {
   return (
     <div
       id="community"
-      className="container mx-auto pt-12 mx-auto p-4 xl:pt-20"
+      className="container mx-auto pt-12 p-4 xl:pt-20"
     >
       <h1 className="lg:text-4xl sm:text-3xl text-2xl font-Montserrat font-extrabold text-center text-[#212A5C] mb-4">
         Community Partnership
@@ -58,8 +58,8 @@ const Community = () => {
       </div>
       <div className="flex flex-row justify-center">
         <div className="mt-6 grid lg:grid-cols-4 grid-cols-2 gap-4  max-w-8xl px-8 m-auto">
-          <div className="p-2   bg-gray-200 md:bg-white my-2">
-            <div className="sm:w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+          <div className="logo-container">
+            <div className="logo-image-container">
               <a
                 href="https://linktr.ee/meerutcodehub"
                 target="_blank"
@@ -74,8 +74,8 @@ const Community = () => {
               </a>
             </div>
           </div>
-          <div className="p-2   bg-gray-200 md:bg-white my-2">
-            <div className="sm:w-56 h-full flex relative justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+          <div className="logo-container">
+            <div className="logo-image-container">
               {" "}
               <a
                 href="https://ocd-india.github.io/"
@@ -91,8 +91,8 @@ const Community = () => {
             </div>
           </div>
 
-          <div className="p-2  bg-gray-200 md:bg-white my-2">
-            <div className="sm:w-56  h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+          <div className="logo-container">
+            <div className="logo-image-container">
               <a
                 href="https://fossunited.org/"
                 target="_blank"
@@ -107,8 +107,8 @@ const Community = () => {
             </div>
           </div>
 
-          <div className="p-2  bg-gray-200 md:bg-white my-2">
-            <div className="sm:w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2  hover:bg-[#">
+          <div className="logo-container">
+            <div className="logo-image-container">
               <a
                 href="https://www.reddit.com/r/developersIndia/"
                 target="_blank"

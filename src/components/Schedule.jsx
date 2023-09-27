@@ -19,88 +19,88 @@ const Schedule = () => {
                 <p className="text-center text-[#5DB363] mt-6 sm:-mt-10 pb-9 text-3xl font-Montserrat font-semibold">
                   Morning (Hall 1)
                 </p>
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     08:00 - 08:30
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Opening remarks
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                   08:30 - 09:00 
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Panel Discussion on Topic W
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     09:00 - 09:30
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Presentation on Topic Y
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     09:30 - 10:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Coffee Break
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
-                   10:00 - 10:30
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
+                    10:00 - 10:30
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Workshop on Skill Development
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     10:30 - 11:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Updates from the Open Source Multimedia community
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
-                   11:00 - 11:30
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
+                    11:00 - 11:30
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Panel Discussion on Topic Q
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
-                   11:30 - 12:00
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
+                    11:30 - 12:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Workshop on Topic R
                     </a>
@@ -116,88 +116,88 @@ const Schedule = () => {
                   Afternoon (Hall 2)
                 </p>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     12:30 - 13:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Opening remarks
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     13:00 - 14:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Panel Discussion on Topic X
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     14:00 - 14:30
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Keynote Speech by Speaker A
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     14:30 - 15:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Coffee Break
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     15:00 - 15:30
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Panel Discussion on Emerging Technologies
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     15:30 - 16:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Updates from the Open Source Multimedia community
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     16:00 - 16:30
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Keynote Address
                     </a>
                   </h3>
                 </div>
 
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right  shrink-0">
+                <div className="schedule-list-item">
+                  <p className="schedule-time">
                     16:30 - 17:00
                   </p>
-                  <h3 className="text-lg font-semibold text-gray-900 ">
+                  <h3 className="schedule-text">
                     <a  className="cursor-grab">
                       Keynote Speech by Speaker B
                     </a>
